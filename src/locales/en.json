@@ -1,0 +1,146 @@
+{
+  "app": {
+    "name": "Agenda"
+  },
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "undo": "Undo",
+    "retry": "Retry",
+    "loading": "Loading…",
+    "saving": "Saving…",
+    "optional": "optional"
+  },
+  "nav": {
+    "label": "Main navigation",
+    "toggle": "Open menu",
+    "collapse": "Collapse menu",
+    "expand": "Expand menu",
+    "skipToContent": "Skip to content",
+    "home": "Home",
+    "calendar": "Calendar",
+    "appointmentTypes": "Appointment types",
+    "actions": "Quick actions",
+    "newAppointment": "New appointment",
+    "newAppointmentType": "New appointment type",
+    "language": "Language",
+    "theme": "Theme",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeSwitchToLight": "Switch to light theme",
+    "themeSwitchToDark": "Switch to dark theme"
+  },
+  "formats": {
+    "time": "h:mm a",
+    "dayLabel": "EEEE, MMMM d",
+    "dayLabelShort": "MMMM d",
+    "monthTitle": "MMMM yyyy"
+  },
+  "errors": {
+    "title": "Something went wrong",
+    "generic": "An unexpected error occurred.",
+    "notFound": "We couldn't find what you were looking for.",
+    "backHome": "Back to home",
+    "http": {
+      "404": "We couldn't find the requested resource.",
+      "422": "Please review the submitted data.",
+      "500": "The server had a problem. Please try again."
+    }
+  },
+  "validation": {
+    "required": "This field is required",
+    "maxLength": "At most {{max}} characters",
+    "invalidColor": "Use a hexadecimal color",
+    "endsBeforeStarts": "The end date must come after the start date"
+  },
+  "calendar": {
+    "title": "Calendar",
+    "loading": "Loading appointments…",
+    "nav": {
+      "label": "Calendar navigation",
+      "previous": "Previous month",
+      "today": "Today",
+      "next": "Next month"
+    },
+    "dayCell": {
+      "none": "no appointments",
+      "appointments_one": "{{count}} appointment",
+      "appointments_other": "{{count}} appointments",
+      "more": "+{{count}} more"
+    },
+    "day": {
+      "empty": "No appointments on this day.",
+      "newAppointment": "New appointment this day"
+    },
+    "meta_one": "{{count}} appointment this month",
+    "meta_other": "{{count}} appointments this month"
+  },
+  "home": {
+    "title": "Upcoming appointments",
+    "empty": "You have no upcoming appointments.",
+    "emptyCta": "Schedule an appointment",
+    "search": {
+      "label": "Search appointments",
+      "placeholder": "Search by title or notes…",
+      "clear": "Clear search",
+      "title": "Search results",
+      "results_one": "{{count}} appointment found",
+      "results_other": "{{count}} appointments found",
+      "includesPast": "Includes past appointments.",
+      "noResults": "No appointment matches “{{term}}”.",
+      "emptyTitle": "No matches"
+    },
+    "meta_one": "{{count}} upcoming appointment",
+    "meta_other": "{{count}} upcoming appointments",
+    "emptyTitle": "Your schedule is clear",
+    "emptyBody": "Anything you schedule will show up here in chronological order."
+  },
+  "appointments": {
+    "new": "New appointment",
+    "edit": "Edit appointment",
+    "notFound": "This appointment no longer exists.",
+    "deleteConfirm": "Delete this appointment?",
+    "past": "Past",
+    "fields": {
+      "description": "Title",
+      "appointmentType": "Appointment type",
+      "appointmentTypePlaceholder": "Select a type",
+      "location": "Location",
+      "startsAt": "Starts",
+      "endsAt": "Ends",
+      "notes": "Notes",
+      "people": "People",
+      "status": "Status"
+    }
+  },
+  "appointmentTypes": {
+    "title": "Appointment types",
+    "new": "New appointment type",
+    "edit": "Edit appointment type",
+    "empty": "There are no appointment types yet.",
+    "notFound": "This appointment type no longer exists.",
+    "deleteConfirm": "Delete this appointment type?",
+    "fields": {
+      "name": "Name",
+      "color": "Color"
+    },
+    "meta_one": "{{count}} type",
+    "meta_other": "{{count}} types",
+    "emptyTitle": "No appointment types yet",
+    "emptyBody": "Types group your appointments and give them color on the calendar."
+  },
+  "people": {
+    "title": "Interested people",
+    "add": "Add person",
+    "empty": "Nobody else is involved in this appointment.",
+    "name": "Name",
+    "email": "Email",
+    "remove": "Remove person",
+    "removed": "Will be removed on save",
+    "count_one": "{{count}} person",
+    "count_other": "{{count}} people"
+  }
+}

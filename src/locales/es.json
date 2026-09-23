@@ -1,0 +1,146 @@
+{
+  "app": {
+    "name": "Agenda"
+  },
+  "common": {
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "add": "Agregar",
+    "undo": "Deshacer",
+    "retry": "Reintentar",
+    "loading": "Cargando…",
+    "saving": "Guardando…",
+    "optional": "opcional"
+  },
+  "nav": {
+    "label": "Navegación principal",
+    "toggle": "Abrir menú",
+    "collapse": "Colapsar menú",
+    "expand": "Expandir menú",
+    "skipToContent": "Saltar al contenido",
+    "home": "Inicio",
+    "calendar": "Calendario",
+    "appointmentTypes": "Tipos de cita",
+    "actions": "Acciones rápidas",
+    "newAppointment": "Nueva cita",
+    "newAppointmentType": "Nuevo tipo de cita",
+    "language": "Idioma",
+    "theme": "Tema",
+    "themeLight": "Claro",
+    "themeDark": "Oscuro",
+    "themeSwitchToLight": "Cambiar a tema claro",
+    "themeSwitchToDark": "Cambiar a tema oscuro"
+  },
+  "formats": {
+    "time": "HH:mm",
+    "dayLabel": "EEEE d 'de' MMMM",
+    "dayLabelShort": "d 'de' MMMM",
+    "monthTitle": "MMMM 'de' yyyy"
+  },
+  "errors": {
+    "title": "Algo salió mal",
+    "generic": "Ocurrió un error inesperado.",
+    "notFound": "No encontramos lo que buscabas.",
+    "backHome": "Volver al inicio",
+    "http": {
+      "404": "No encontramos el recurso solicitado.",
+      "422": "Revisa los datos capturados.",
+      "500": "El servidor tuvo un problema. Intenta de nuevo."
+    }
+  },
+  "validation": {
+    "required": "Este campo es obligatorio",
+    "maxLength": "Máximo {{max}} caracteres",
+    "invalidColor": "Usa un color en formato hexadecimal",
+    "endsBeforeStarts": "La fecha de fin debe ser posterior a la de inicio"
+  },
+  "calendar": {
+    "title": "Calendario",
+    "loading": "Cargando citas…",
+    "nav": {
+      "label": "Navegación del calendario",
+      "previous": "Mes anterior",
+      "today": "Hoy",
+      "next": "Mes siguiente"
+    },
+    "dayCell": {
+      "none": "sin citas",
+      "appointments_one": "{{count}} cita",
+      "appointments_other": "{{count}} citas",
+      "more": "+{{count}} más"
+    },
+    "day": {
+      "empty": "No hay citas este día.",
+      "newAppointment": "Nueva cita este día"
+    },
+    "meta_one": "{{count}} cita este mes",
+    "meta_other": "{{count}} citas este mes"
+  },
+  "home": {
+    "title": "Próximas citas",
+    "empty": "No tienes citas próximas.",
+    "emptyCta": "Agendar una cita",
+    "search": {
+      "label": "Buscar citas",
+      "placeholder": "Buscar por título o notas…",
+      "clear": "Limpiar búsqueda",
+      "title": "Resultados de la búsqueda",
+      "results_one": "{{count}} cita encontrada",
+      "results_other": "{{count}} citas encontradas",
+      "includesPast": "Incluye citas pasadas.",
+      "noResults": "Ninguna cita coincide con «{{term}}».",
+      "emptyTitle": "Sin coincidencias"
+    },
+    "meta_one": "{{count}} cita próxima",
+    "meta_other": "{{count}} citas próximas",
+    "emptyTitle": "Tu agenda está despejada",
+    "emptyBody": "Cuando agendes algo, aparecerá aquí en orden cronológico."
+  },
+  "appointments": {
+    "new": "Nueva cita",
+    "edit": "Editar cita",
+    "notFound": "Esta cita ya no existe.",
+    "deleteConfirm": "¿Eliminar esta cita?",
+    "past": "Pasada",
+    "fields": {
+      "description": "Título",
+      "appointmentType": "Tipo de cita",
+      "appointmentTypePlaceholder": "Selecciona un tipo",
+      "location": "Ubicación",
+      "startsAt": "Inicio",
+      "endsAt": "Fin",
+      "notes": "Notas",
+      "people": "Personas",
+      "status": "Estado"
+    }
+  },
+  "appointmentTypes": {
+    "title": "Tipos de cita",
+    "new": "Nuevo tipo de cita",
+    "edit": "Editar tipo de cita",
+    "empty": "Aún no hay tipos de cita.",
+    "notFound": "Este tipo de cita ya no existe.",
+    "deleteConfirm": "¿Eliminar este tipo de cita?",
+    "fields": {
+      "name": "Nombre",
+      "color": "Color"
+    },
+    "meta_one": "{{count}} tipo",
+    "meta_other": "{{count}} tipos",
+    "emptyTitle": "Aún no hay tipos de cita",
+    "emptyBody": "Los tipos agrupan tus citas y les dan color en el calendario."
+  },
+  "people": {
+    "title": "Personas de interés",
+    "add": "Agregar persona",
+    "empty": "Nadie más está involucrado en esta cita.",
+    "name": "Nombre",
+    "email": "Correo",
+    "remove": "Quitar persona",
+    "removed": "Se eliminará al guardar",
+    "count_one": "{{count}} persona",
+    "count_other": "{{count}} personas"
+  }
+}
