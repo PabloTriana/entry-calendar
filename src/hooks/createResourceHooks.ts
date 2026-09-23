@@ -5,9 +5,9 @@ import {
   useQueryClient,
   type UseMutationResult,
   type UseQueryResult,
-} from "@tanstack/react-query";
-import type { CrudService } from "../api/crudService";
-import type { ApiError } from "../api/errors";
+} from '@tanstack/react-query';
+import type { CrudService } from '../api/crudService';
+import type { ApiError } from '../api/errors';
 
 export interface UpdateVariables<TInput> {
   readonly id: number;

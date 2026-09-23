@@ -1,9 +1,5 @@
-function App() {
+import type { ReactElement } from "react";
+import { RouterProvider } from "react-router";
+import { router } from "./router";
 
-  return (
-    <>
-    </>
-  )
-}
-
-export default App
+export const App = (): ReactElement => <RouterProvider router={router} />;
